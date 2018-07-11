@@ -1,5 +1,4 @@
 package com.springRest.demo.SpringRest.Assignment.service;
-
 import org.springframework.stereotype.Service;
 
 @Service
@@ -27,17 +26,18 @@ public class RestServiceEndImp implements RestServiceEnd{
 		for (int i = 0; i < words.length; i++) 
 		{
 			String word = words[i];
-			
 			String reverseWord = "";
-			
 			for (int j = word.length()-1; j >= 0; j--) 
 			{
 				reverseWord = reverseWord + word.charAt(j);
 			}
 			reverseString = reverseString + reverseWord + " ";
 		}
-		
 		return reverseString;
 	}
-	
+	@Override
+	public String getTriangle(int a, int b, int c) {
+
+		return null;
+	}
 }
