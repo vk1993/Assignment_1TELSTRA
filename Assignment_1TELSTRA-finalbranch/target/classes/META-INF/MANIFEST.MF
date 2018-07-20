@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootRest-2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: mylo
+Implementation-Vendor-Id: com.vktk
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringBootRest-2
+Created-By: Maven Integration for Eclipse
+
